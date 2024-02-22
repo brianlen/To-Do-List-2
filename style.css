@@ -1,0 +1,61 @@
+h1 {
+  color: forestgreen;
+  text-align: center;
+  padding-block: 10px;
+}
+
+.container_whole {
+  height: 1000px;
+  background-color: beige;
+  /* background-size: cover; */
+}
+
+.container_main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.container_1{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: medium solid grey;
+  padding: 2%;
+}
+
+.TD{
+  padding-block: 20px;
+}
+
+.Completed{
+  padding-block: 20px;
+}
+
+.container_2{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: medium solid gray;
+  padding: 2%;
+}
+
+.Submit_Task{
+  display: flex;
+  justify-content: center;
+  margin-inline: 10%;
+  margin-block: 20px;
+  text-align: center;
+
+}
+
+.C_Button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-block: 10px;
+  margin-inline: 30%;
+  text-align: center;
+}
+

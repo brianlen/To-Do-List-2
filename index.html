@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+</head>
+
+<body>
+    <h1 class = "Main Page">Henry & Sam's To-Do List Application</h1>
+    <form>
+        <h2 class="To_Do_Title">To Do</h2>
+        <ol class="todoList">
+            <li class="TD" id="T1">Task 1 <input type="checkbox" name="Task_1"></li>
+            <li class="TD" id="T2">Task 2 <input type="checkbox" name="Task_2"></li>
+            <li class="TD" id="T3">Task 3 <input type="checkbox" name="Task_3"></li>
+            <li class="TD" id="T4">Task 4 <input type="checkbox" name="Task_4"></li>
+            <li class="TD" id="T5">Task 5 <input type="checkbox" name="Task_5"></li>
+            <li class="TD" id="T6">Task 6 <input type="checkbox" name="Task_6"></li>
+        </ol>
+        <br>
+        <input class = "Submit_Task" type="text" value="" placeholder="Insert New Task"/>
+    </form>
+    <form>
+        <h2 class = "Complete_Title">Complete</h2>
+        <ol class = "Completed"></ol>
+        <button class = "C_Button" id = "Restore" type= "button">Restore</button>
+        <button class = "C_Button" id = "Delete" type= "button">Delete</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
